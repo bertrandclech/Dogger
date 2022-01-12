@@ -55,6 +55,7 @@ header nav ul li a {
 body { 
     font-family: 'Open sans', serif;
     font-size: 16px; 
+    color: #4a4a4b;
  /*   margin: 0; /* Suppression des marges intérieures sur le corps du document */
  }
 
