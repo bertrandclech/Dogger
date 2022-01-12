@@ -18,6 +18,11 @@ em {
     color:orange;
 }
 
+h1 {
+    font-weight: 700;
+    font-style: normal;
+}
+
 header {
     display:flex;
     justify-content: space-between;
@@ -72,12 +77,15 @@ table img {
     box-shadow: 10px 10px  #a2c0be;
     width: 400px;
 }
-
-main section table tr:nth-child(even) {
+table th,
+table td {
+    padding: 15px;
+}
+main table tr:nth-child(even) {
     text-align: left;
 }
 
-main section table tr:nth-child(odd) {
+main table tr:nth-child(odd) {
     text-align: right;
 }
 
