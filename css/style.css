@@ -1,0 +1,84 @@
+/* Couleurs du site */
+/*
+Blanc : #ffffff;
+Noir : #000000;
+Gris clair : #f8f9fa;
+Gris : #999999;
+Gris foncé : #4a4a4b;
+Vert : #a2c0be;
+Vert foncé : #567876;
+Orange : #ff9900;
+*/
+
+.logo {
+    font-size: 2rem;
+}
+
+em {
+    color:orange;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header nav ul {
+    display:flex;
+    flex-direction: row;
+    list-style: none; /* on supprime les puces */
+    gap: 20px; /* met un espace entre les éléments du menu nav */
+}
+
+/* applique un style sur les leins de nav header */
+header nav ul li a {
+    text-decoration: none; /* supprime le soulignement */
+    color:#567876;
+}
+
+body { 
+    font-family: 'Open sans', serif;
+    font-size: 16px; 
+ /*   margin: 0; /* Suppression des marges intérieures sur le corps du document */
+ }
+
+body {
+    background-color: #ffffff;
+}
+
+#top {
+    background-color: #f8f9fa;
+}
+
+#top img {
+    width: 300px;
+}
+table img {
+    box-shadow: 10px 10px  #a2c0be;
+    width: 400px;
+}
+
+table tr td {
+    text-align: center;
+}
+
+button {
+    border:none;
+    background-color:#a2c0be;
+    color: white;
+ /*   width:200px; */
+    padding:12px;
+    font-weight: bold;
+    border-radius: 16px;
+    font-size: 1.2rem;
+    margin:auto;
+    display:block;
+}
+
+footer {
+    background-color: #4a4a4b;
+    text-align: center;
+    color: #ffffff;
+    height: 200px;
+}
