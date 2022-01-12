@@ -73,8 +73,12 @@ table img {
     width: 400px;
 }
 
-table tr td {
-    text-align: center;
+main section table tr:nth-child(even) {
+    text-align: left;
+}
+
+main section table tr:nth-child(odd) {
+    text-align: right;
 }
 
 button {
@@ -86,8 +90,6 @@ button {
     font-weight: bold;
     border-radius: 16px;
     font-size: 1.2rem;
-    margin:auto;
-    display:block;
 }
 
 footer {
